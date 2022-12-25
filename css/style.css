@@ -32,13 +32,13 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	background: transparent;
-	padding: 22px 15%;
+	padding: 1.375rem 15%;
 	border-bottom: 1px solid transparent;
 	transition: all .45s ease;
 }
 .logo{
 	color: var(--text-color);
-	font-size: 35px;
+	font-size: 2.188rem;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
@@ -50,9 +50,9 @@ span{
 }
 .navlist a{
 	color: var(--second-color);
-	font-size: 17px;
+	font-size: 1rem;
 	font-weight: 500;
-	margin: 0 25px;
+	margin: 0 1.56rem;
 	transition: all .45s ease;
 }
 .navlist a:hover{
@@ -62,16 +62,16 @@ span{
 	color: var(--main-color);
 }
 #menu-icon{
-	font-size: 35px;
+	font-size: 2.188rem;
 	color: var(--text-color);
 	z-index: 10001;
 	cursor: pointer;
-	margin-left: 25px;
+	margin-left: 1.56rem;
 	display: none;
 }
 
 section{
-	padding: 160px 15% 120px;
+	padding: 10rem 15% 7.5rem;
 }
 .home{
 	position: relative;
@@ -85,24 +85,24 @@ section{
 	justify-content: flex-start;
 }
 .slide{
-	margin-bottom: 20px;
+	margin-bottom: 1.25rem;
 }
 .one{
 	display: inline-block;
-	margin-right: 15px;
-	height: 32px;
-	padding: 0 15px;
-	line-height: 32px;
-	font-size: 20px;
+	margin-right: 1rem;
+	height: 2rem;
+	padding: 0 1rem;
+	line-height: 2rem;
+	font-size: 1.25rem;
 	font-weight: 500;
-	border-radius: 5px;
+	border-radius: .3rem;
 	background: var(--main-color);
 	color: var(--text-color);
 }
 .two{
 	display: inline-block;
 	color: var(--second-color);
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-weight: 500;
 }
 .home-text h1{
@@ -110,11 +110,11 @@ section{
 	font-weight: 700;
 	color: var(--text-color);
 	line-height: 1.1;
-	margin: 0 0 8px;
+	margin: 0 0 0.5rem;
 }
 .home-text h3{
 	color: var(--text-color);
-	margin: 0 0 35px;
+	margin: 0 0 2.18rem;
 	font-size: 3rem;
 	font-weight: 700;
 	line-height: 1.1;
@@ -123,7 +123,7 @@ section{
 	color: var(--second-color);
 	font-size: var(--p-font);
 	line-height: 1.8;
-	margin-bottom: 40px;
+	margin-bottom: 2.5rem;
 }
 .button{
 	display: inline-flex;
@@ -132,7 +132,7 @@ section{
 }
 .btn{
 	display: inline-block;
-	padding: 12px 28px;
+	padding: 0.75rem 1.75rem;
 	background: var(--main-color);
 	border-radius: 5px;
 	color: var(--text-color);
@@ -148,22 +148,22 @@ section{
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 15px;
+	font-size: 0.94rem;
 	font-weight: 600;
 	color: var(--text-color);
-	margin-left: 35px;
-}
+	margin-left: 2.19rem;
+} 
 .btn2 span i{
-	height: 55px;
-	width: 55px;
+	height: 3.5rem;
+	width: 3.5rem;
 	background: var(--main-color);
 	color: var(--text-color);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 35px;
+	font-size: 2.19rem;
 	border-radius: 50%;
-	margin-right: 15px;
+	margin-right: 0.94rem;
 	transition: all .45s ease;
 }
 .btn2 span i:hover{
@@ -173,7 +173,7 @@ section{
 header.sticky{
 	background: var(--bg-color);
 	border-bottom: 1px solid #ffffff1a;
-	padding: 12px 15%;
+	padding: 0.75rem 15%;
 }
 
 .about{
@@ -183,21 +183,21 @@ header.sticky{
 	gap: 1.5rem;
 }
 .about-img img{
-	max-width: 530px;
+	max-width: 33rem;
 	height: auto;
 	width: 100%;
-	border-radius: 8px;
+	border-radius: 0.5rem;
 }
 .about-text h2{
 	font-size: var(--h2-font);
 	line-height: 1;
 }
 .about-text h4{
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: 600;
 	color: var(--text-color);
 	line-height: 1.7;
-	margin: 15px 0 30px;
+	margin: 0.94rem 0 1.9rem;
 }
 .about-text p{
 	color: var(--second-color);
@@ -214,8 +214,8 @@ header.sticky{
 }
 .main-text p{
 	color: var(--second-color);
-	font-size: 15px;
-	margin-bottom: 15px;
+	font-size: 0.94rem;
+	margin-bottom: 0.94rem;
 }
 .main-text h2{
 	font-size: var(--h2-font);
@@ -223,41 +223,41 @@ header.sticky{
 }
 .services-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(15.7rem, auto));
 	align-items: center;
 	gap: 2.5rem;
 	margin-top: 5rem;
 }
 .box{
 	background: var(--bg-color);
-	padding: 35px 45px;
-	border-radius: 8px;
+	padding: 2.19rem 2.8rem;
+	border-radius: 0.5rem;
 	transition: all .45s ease;
 }
 .s-icons i{
-	font-size: 32px;
-	margin-bottom: 20px;
+	font-size: 2rem;
+	margin-bottom: 1.25rem;
 }
 .box h3{
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: 600;
 	color: var(--text-color);
-	margin-bottom: 15px;
+	margin-bottom: 0.94rem;
 }
 .box p{
 	color: var(--second-color);
 	font-size: 1rem;
 	line-height: 1.8;
-	margin-bottom: 25px;
+	margin-bottom: 1.56rem;
 }
 .read{
 	display: inline-block;
-	padding: 8px 18px;
+	padding: 0.5rem 1.1rem;
 	background: #333333;
 	color: var(--second-color);
-	font-size: 14px;
+	font-size: 0.87rem;
 	font-weight: 500;
-	border-radius: 8px;
+	border-radius: 0.5rem;
 	transition: all .45s ease;
 }
 .read:hover{
@@ -266,13 +266,13 @@ header.sticky{
 	color: var(--text-color);
 }
 .box:hover{
-	transform: translateY(-8px);
+	transform: translateY(-0.5rem);
 	cursor: pointer;
 }
 
 .portfolio-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(22rem, auto));
 	align-items: center;
 	gap: 2.5rem;
 	margin-top: 5rem;
@@ -280,12 +280,12 @@ header.sticky{
 .row{
 	position: relative;
 	overflow: hidden;
-	border-radius: 8px;
+	border-radius: 0.5rem;
 	cursor: pointer;
 }
 .row img{
 	width: 100%;
-	border-radius: 8px;
+	border-radius: 0.5rem;
 	display: block;
 	transition: transform 0.5s;
 }
@@ -294,7 +294,7 @@ header.sticky{
 	height: 0;
 	background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
 	position: absolute;
-	border-radius: 8px;
+	border-radius: 0.5rem;
 	left: 0;
 	bottom: 0;
 	overflow: hidden;
@@ -303,13 +303,13 @@ header.sticky{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	padding: 0 40px;
+	padding: 0 2.5rem;
 	transition: height 0.5s;
 }
 .layer h5{
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-weight: 600;
-	margin-bottom: 15px;
+	margin-bottom: 0.94rem;
 }
 .layer p{
 	color: var(--second-color);
@@ -318,11 +318,11 @@ header.sticky{
 }
 .layer i{
 	color: var(--main-color);
-	margin-top: 20px;
-	font-size: 20px;
+	margin-top: 1.25rem;
+	font-size: 1.25rem;
 	background: var(--text-color);
-	width: 60px;
-	height: 60px;
+	width: 3.75rem;
+	height: 3.75rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -344,8 +344,8 @@ header.sticky{
 }
 .contact-text h4{
 	color: var(--text-color);
-	margin: 18px 0;
-	font-size: 20px;
+	margin: 1.1rem 0;
+	font-size: 1.25rem;
 	font-weight: 600;
 }
 .contact-text h2{
@@ -356,35 +356,35 @@ header.sticky{
 	color: var(--second-color);
 	font-size: var(--p-font);
 	line-height: 1.8;
-	margin-bottom: 30px;
+	margin-bottom: 1.9rem;
 }
 .list{
 	margin-bottom: 2.8rem;
 }
 .list li{
-	margin-bottom: 12px;
+	margin-bottom: 0.75rem;
 }
 .list li a{
 	display: block;
 	color: var(--second-color);
-	font-size: 14px;
+	font-size: 0.87rem;
 	transition: all .45s ease;
 }
 .list li a:hover{
 	color: var(--text-color);
-	transform: translateX(5px);
+	transform: translateX(0.3rem);
 }
 .contact-icons i{
-	height: 45px;
-	width: 45px;
+	height: 2.8rem;
+	width: 2.8rem;
 	background: var(--main-color);
 	color: var(--text-color);
-	font-size: 22px;
+	font-size: 1.4rem;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	border-radius: 8px;
-	margin-right: 15px;
+	border-radius: 0.5rem;
+	margin-right: 0.94rem;
 	transition: all .45s ease;
 }
 .contact-icons i:hover{
@@ -398,25 +398,25 @@ header.sticky{
 .contact-form form input,
 form textarea{
 	width: 100%;
-	padding: 14px;
+	padding: 0.87rem;
 	background: var(--bg-color);
 	color: var(--text-color);
 	border: none;
 	outline: none;
-	font-size: 15px;
-	border-radius: 8px;
-	margin-bottom: 10px;
+	font-size: 0.94rem;
+	border-radius: 0.5rem;
+	margin-bottom: 0.6rem;
 }
 .contact-form textarea{
 	resize: none;
-	height: 240px;
+	height: 15rem;
 }
 .contact-form .submit{
 	display: inline-block;
-	font-size: 16px;
+	font-size: 1rem;
 	background: var(--main-color);
 	color: var(--text-color);
-	width: 160px;
+	width: 10rem;
 	transition: all .45s ease;
 }
 .contact-form .submit:hover{
@@ -425,7 +425,7 @@ form textarea{
 }
 
 .end{
-	padding: 20px 15%;
+	padding: 1.25rem 15%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -435,12 +435,12 @@ form textarea{
 }
 .last-text p{
 	color: var(--second-color);
-	font-size: 14px;
+	font-size: 0.87rem;
 }
 .top i{
-	padding: 10px;
-	border-radius: 8px;
-	font-size: 15px;
+	padding: 0.6rem;
+	border-radius: 0.5rem;
+	font-size: 0.94rem;
 	color: var(--text-color);
 	background: var(--main-color);
 }
@@ -448,7 +448,7 @@ form textarea{
 
 @media (max-width: 1480px){
 	header{
-		padding: 12px 2.5%;
+		padding: 0.75rem 2.5%;
 		transition: .1s;
 	}
 	header.sticky{
@@ -456,10 +456,10 @@ form textarea{
 		transition: .1s;;
 	}
 	section{
-		padding: 110px 3% 60px;
+		padding: 110px 3% 3.75rem;
 	}
 	.end{
-		padding: 15px 3%;
+		padding: 0.94rem 3%;
 	}
 }
 
@@ -514,7 +514,7 @@ form textarea{
 	.navlist a{
 		display: block;
 		margin: 17px;
-		font-size: 20px;
+		font-size: 1.25rem;
 		transition: all .45s ease;
 		color: var(--text-color);
 	}
@@ -526,5 +526,10 @@ form textarea{
 	}
 	.navlist.open{
 		top: 100%;
+	}
+}
+@media  screen and (max-height: 650px) {
+	:root{
+		font-size: 14px;
 	}
 }

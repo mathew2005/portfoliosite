@@ -15,3 +15,13 @@ window.onscroll = () => {
 	menu.classList.remove('bx-x');
 	navlist.classList.remove('open');
 };
+
+
+//typed animation control
+var typed = new Typed(".auto-input",{
+    strings: ["UI/UX Designer", "Web Developer"],
+    typeSpeed: 120,
+    backSpeed: 120,
+    loop: true,
+    backDelay: 1000
+})
