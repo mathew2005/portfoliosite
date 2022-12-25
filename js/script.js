@@ -25,3 +25,8 @@ var typed = new Typed(".auto-input",{
     loop: true,
     backDelay: 1000
 })
+
+
+//time for copyright
+let copyrightTime = document.querySelector('time');
+copyrightTime.textContent = new Date().getFullYear();
