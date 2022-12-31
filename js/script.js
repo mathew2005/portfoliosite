@@ -52,3 +52,6 @@ scrollProgress.style.background = `conic-gradient(var(--main-color) ${scrollValu
 }
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
+
+
+

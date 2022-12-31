@@ -121,7 +121,8 @@ section{
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	background-image: url(../img/background.jpg);
+	background-image: url(../img/mathewos5bandw.jpg);
+	
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -218,6 +219,8 @@ header.sticky{
 	height: auto;
 	width: 100%;
 	border-radius: 0.5rem;
+	background: white;
+
 }
 .about-text h2{
 	font-size: var(--h2-font);
@@ -320,6 +323,8 @@ header.sticky{
 	cursor: pointer;
 }
 .row img{
+	width: 400px;
+	height: 300px;
 	width: 100%;
 	border-radius: 0.5rem;
 	display: block;
@@ -456,7 +461,8 @@ form textarea{
 	transition: all .45s ease;
 }
 .contact-form .submit:hover{
-	transform: scale(1.1);
+	color: var(--main-color);
+	background: var(--text-color);
 	cursor: pointer;
 }
 
