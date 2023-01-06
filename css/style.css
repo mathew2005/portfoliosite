@@ -373,6 +373,10 @@ header.sticky{
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
+	transition: all 0.5s;
+}
+.layer i:hover{
+	opacity: 0.8;
 }
 .row:hover img{
 	transform: scale(1.1);
