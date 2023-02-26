@@ -20,7 +20,6 @@
 	--text-color: #fff;
 	--second-color: #ccc;
 	--main-color: #ec0000;
-	/* --main-color: #00ffff; */
 	--big-font: 5rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
@@ -351,6 +350,11 @@ header.sticky{
 	text-align: center;
 	padding: 0 2.5rem;
 	transition: height 0.5s;
+}
+.current-layer{
+	background: linear-gradient(rgba(0,0,0,0.1), yellow);
+	color:white !important;
+
 }
 .layer h5{
 	font-size: 1.25rem;
