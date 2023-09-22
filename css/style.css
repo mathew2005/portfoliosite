@@ -349,11 +349,7 @@ header.sticky{
 	padding: 0 2.5rem;
 	transition: height 0.5s;
 }
-.current-layer{
-	background: linear-gradient(rgba(0,0,0,0.1), yellow);
-	color:white !important;
 
-}
 .layer h5{
 	font-size: 1.25rem;
 	font-weight: 600;
