@@ -209,6 +209,7 @@ header.sticky{
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	gap: 1.5rem;
+	background-color: var(--second-bg-color);
 }
 .about-img img{
 	max-width: 33rem;
@@ -240,7 +241,19 @@ header.sticky{
 	margin-right: 2rem;
 	
 }
-
+.recentproject{
+	background: var(--first-bg-color);
+	
+}
+#recentprojectcontent{
+	display: flex;
+	justify-content: center;
+	padding-top: 3.5rem;
+	
+}
+#arduinovideo{
+	max-width: 450px;
+}
 .services{
 	background: var(--second-bg-color);
 }
